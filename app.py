@@ -1,4 +1,5 @@
 from flask import Flask
+import { Analytics } from "@vercel/analytics/next"
 
 app = Flask(__name__)
 
